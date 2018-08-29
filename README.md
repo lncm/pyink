@@ -1,4 +1,4 @@
-# Satoshi-Pay
+# Satoshi-Pi
 
 > *"No payment is small enough to be irrelephant 🐘"*
 
@@ -8,7 +8,7 @@ Installation
 ---
 
 ```
-curl https://raw.githubusercontent.com/lncm/Satoshi-Pay/master/install.sh | bash
+curl https://raw.githubusercontent.com/lncm/Satoshi-Pi/master/install.sh | bash
 ```
 
 Done.
@@ -23,7 +23,7 @@ Usage
 ---
 
 ```
-cd Satoshi-Pay
+cd Satoshi-Pi
 ./run.sh
 ```
 

@@ -13,14 +13,14 @@ doInstall() {
     python -m pip install qrcode
     python -m pip install spidev
 
-    git clone https://github.com/lncm/Satoshi-Pay.git
-    chmod +x Satoshi-Pay/run.sh
+    git clone https://github.com/lncm/Satoshi-Pi.git
+    chmod +x Satoshi-Pi/run.sh
 
     # Make sure i2c-dev is above i2c-bcm2708
     echo 'i2c-dev' >> /etc/modules
     echo 'i2c-bcm2708' >> /etc/modules
 
-    echo -e "\nRequired by Satoshi-Pay" >> /boot/config.txt
+    echo -e "\nRequired by Satoshi-Pi" >> /boot/config.txt
     echo "dtparam=i2c_arm=on" >> /boot/config.txt
     echo "dtparam=spi=on" >> /boot/config.txt
 
