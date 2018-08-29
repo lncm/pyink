@@ -8,7 +8,7 @@ Installation
 ```
 git clone git@github.com:lncm/Satoshi-Pay.git
 cd Satoshi-Pay
-sh ./install.sh
+sudo bash install.sh
 ```
 
 Done.
