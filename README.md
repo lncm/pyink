@@ -8,7 +8,7 @@ Installation
 ---
 
 ```
-curl https://raw.githubusercontent.com/lncm/Satoshi-Pi/master/install.sh | bash
+curl -sS https://raw.githubusercontent.com/lncm/Satoshi-Pi/master/install.sh | bash
 ```
 
 Done.

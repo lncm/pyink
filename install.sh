@@ -43,7 +43,7 @@ else
     # Check if sudo command exists
         if command -v sudo &> /dev/null; then
             echo "Attempting to run with sudo"
-            exec sudo bash ${0}
+            exec sudo bash curl -sS https://raw.githubusercontent.com/lncm/Satoshi-Pi/master/install.sh
         else
             echo "Cannot find sudo"
         fi
