@@ -1,14 +1,14 @@
 # Satoshi-Pay
 
+> *"No payment is small enough to be irrelephant 🐘"*
+
 ### Displays QR codes on e-Ink screen for Bitcoin/Lightning
 
 Installation
 ---
 
 ```
-git clone git@github.com:lncm/Satoshi-Pay.git
-cd Satoshi-Pay
-sudo bash install.sh
+curl https://raw.githubusercontent.com/lncm/Satoshi-Pay/master/install.sh | bash
 ```
 
 Done.
@@ -23,7 +23,8 @@ Usage
 ---
 
 ```
-python main.py
+cd Satoshi-Pay
+./run.sh
 ```
 
 Enjoy!
