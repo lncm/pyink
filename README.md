@@ -7,6 +7,7 @@
 
 Planned support:
 * e-ink HAT
+* LCD HAT
 * Buttons
 * Menus
 * QR codes
@@ -36,6 +37,7 @@ Requirements
 
 Optional hardware add-ons:
 * [2.7" e-Paper HAT](https://www.waveshare.com/product/2.7inch-e-paper-hat-b.htm) from Waveshare
+* [3.5" LCD](https://www.waveshare.com/3.5inch-RPi-LCD-A.htm) from Waveshare or compatible
 * HD47780 compatible character display (i2c or parallel with logic converter)
 * buttons (GPIO)
 * LEDs and appropriate resistors
