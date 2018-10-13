@@ -2,7 +2,7 @@
 
 ### Adds hardware support to Satoshi-Pi box 
 
-> *"No payment is too small to be irrelephant 🐘 "*
+> *"No payment is too small to be irrelephant" 🐘*
 
 
 Planned support:
